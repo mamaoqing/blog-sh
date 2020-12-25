@@ -34,9 +34,9 @@ import java.util.HashMap;
 @RequestMapping("/post")
 public class UploadController extends BaseController {
     public static HashMap<String, String> errorInfo = new HashMap<>();
-
+    //默认成功
     static {
-        errorInfo.put("SUCCESS", "SUCCESS"); //默认成功
+        errorInfo.put("SUCCESS", "SUCCESS");
         errorInfo.put("NOFILE", "未包含文件上传域");
         errorInfo.put("TYPE", "不允许的文件格式");
         errorInfo.put("SIZE", "文件大小超出限制，最大支持2Mb");
