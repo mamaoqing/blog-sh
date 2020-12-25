@@ -3,10 +3,10 @@ spring:
         #schema: classpath*:scripts/schema.sql
         #continue-on-error: false
         #sql-script-encoding: utf-8
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://mysql/db_mblog?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
+        driver-class-name: org.mariadb.jdbc.Driver
+        url: jdbc:mysql://mysql/blog-sg?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
         username: root
-        password: 12345
+        password: root
     flyway:
         enabled: true
     jpa:
