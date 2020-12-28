@@ -20,13 +20,14 @@
     <ul>
         <li>
             <i class="fa fa-location-arrow"></i>
-            <a href="javascript:void(0)" class="rota">业务合作</a>
+            <a target="_blank" href="/mq/index" class="rota">业务合作</a>
         </li>
         <li title="在线客服">
             <i class="fa fa-comments-o"></i>
             <a href="javascript:void(0)" class="rota">在线反馈</a>
         </li>
-        <li lay-data="img" data-fooc="http://www.mtons.com/dist/images/code/qq.jpg">
+        <li lay-data="img" data-fooc="/dist/images/logo/m.png">
+<#--        <li lay-data="img" data-fooc="<@resource src=options['site_logo']/>">-->
             <i class="fa fa-qrcode"></i><a href="javascript:;" class="rota">二维码</a>
         </li>
         <li title="返回顶部" class="for-top">

@@ -32,7 +32,7 @@
                         </button>
                     </div>
                     <@controls name="register">
-                        <fieldset class="form-group">
+                        <#--<fieldset class="form-group">
                             <#if site.hasValue("weibo_client_id")>
                             <a class="btn btn-default btn-block" href="${base}/oauth/callback/call_weibo">
                                 <i class="fa fa-weibo"></i> 微博帐号登录
@@ -48,7 +48,7 @@
                                 <i class="fa fa-github"></i> Github帐号登录
                             </a>
                             </#if>
-                        </fieldset>
+                        </fieldset>-->
                     </@controls>
                 </form>
             </div>

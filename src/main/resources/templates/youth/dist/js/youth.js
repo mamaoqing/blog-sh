@@ -213,4 +213,3 @@ function zeroPadding(num, digit) {
 
 var text =' Youth博客主题 v3.5 ';
 var youth ='%c' + text;
-console.log('\n' + ' %c (づ￣ ³￣)づヾ 作者：CUI ' + youth + ' ' + '\n' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');

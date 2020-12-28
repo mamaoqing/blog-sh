@@ -177,4 +177,3 @@ $(function(){
 
 var text =' concise博客主题 v2 ';
 var concise ='%c' + text;
-console.log('\n' + ' %c (づ￣ ³￣)づヾ 作者：CUI ' + concise + ' ' + '\n' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
